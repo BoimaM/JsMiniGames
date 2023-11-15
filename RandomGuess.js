@@ -10,7 +10,7 @@ while (true) {
   guesses++
 
   const guess = Number (prompt ("Guess the number (0-100): "));
-  
+
   if (guess > target) {
     console.log("Your guess is too high.");
     continue;
@@ -18,6 +18,7 @@ while (true) {
     console.log("Your guess is too low.");
     continue;
   } 
+  
     console.log("You guessed it");
     break;
 };
